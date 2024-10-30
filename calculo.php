@@ -27,11 +27,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     $total = $quantidade + $margem;
 
-    echo json_encode(["areaComodo" => $areaComodo, 
-                      "areaPiso" => $areaPiso, 
-                      "quantidade" => $quantidade,
-                      "margem" => $margem,
-                      "total" => $total]);
+    echo json_encode(["areaComodo" => $areaComodo,
+                      " ","areaPiso" => $areaPiso,
+                      " ","quantidade" => $quantidade,
+                      " ","margem" => $margem,
+                      " ","total" => $total]);
 
     // // Verifica se o JSON contém os valores esperados
     // if (isset($data->numero1) && isset($data->numero2)) {
